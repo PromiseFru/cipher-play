@@ -8,7 +8,7 @@ from ciphers.caesar_cipher import caesar_encrypt, caesar_decrypt
     ("hello", 3, "khoor"),
     ("abc", -3, "xyz"),
     ("xyz", 3, "abc"),
-    ("HELLO, WORLD!", 3, "KHOOR, ZRVOG!"),
+    ("HELLO, WORLD!", 3, "KHOOR, ZRUOG!"),
     ("HELLO", 26, "HELLO"),
     ("hello", 0, "hello"),
     ("HELLO", 29, "KHOOR")
@@ -21,7 +21,7 @@ def test_encrypt(plaintext, shift, expected):
     ("khoor", 3, "hello"),
     ("xyz", -3, "abc"),
     ("abc", 3, "xyz"),
-    ("KHOOR, ZRVOG!", 3, "HELLO, WORLD!"),
+    ("KHOOR, ZRUOG!", 3, "HELLO, WORLD!"),
     ("HELLO", 26, "HELLO"),
     ("hello", 0, "hello"),
     ("KHOOR", 29, "HELLO")
